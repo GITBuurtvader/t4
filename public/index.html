@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T4</title>
+  <link rel="icon" href="/icoon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="links" aria-label="Projecten en chats"></aside>
+    <main id="midden">
+      <header id="chatkop"></header>
+      <div id="berichten" aria-live="polite"></div>
+      <footer id="invoer">
+        <div class="invoerrij">
+          <textarea id="tekst" rows="1" placeholder="Schrijf een bericht…" aria-label="Bericht"></textarea>
+          <button id="verstuur" class="knop primair" type="button">Verstuur</button>
+        </div>
+        <div id="contextregel"></div>
+      </footer>
+    </main>
+    <section id="rechts" aria-label="Bestand"></section>
+  </div>
+  <div id="meldingen" aria-live="assertive"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

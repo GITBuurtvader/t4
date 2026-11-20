@@ -1,0 +1,14 @@
+{
+  "name": "t4",
+  "version": "0.1.0",
+  "description": "Lokale werkplek: projecten, chats, documenten en artifacts. Draait op 127.0.0.1, zonder afhankelijkheden.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
