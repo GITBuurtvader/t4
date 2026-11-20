@@ -34,7 +34,7 @@ Gebruik en mappenstructuur staan in [README.md](README.md).
 | 2 | Harnas: projectinstructies, kennisbestanden als context, artifacts met versies | Klaar |
 | 3 | Documenten: openen, laten herschrijven, verschillen bekijken, goedkeuren | Klaar |
 | 4 | Modelkoppeling | Open, zie §4 |
-| 5 | Overzetten naar de werklaptop | Open. Nog doen: repo op GitHub zetten, daar klonen, `node server.js`, Defender-log bekijken. |
+| 5 | Overzetten naar de werklaptop | Repo staat publiek op https://github.com/GITBuurtvader/t4. Nog doen: op de werklaptop klonen, `node server.js`, Defender-log bekijken. |
 
 ## 4. Open: de modelkoppeling
 

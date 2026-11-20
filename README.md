@@ -83,7 +83,7 @@ Niets is meteen weg: alles gaat naar `data/prullenbak`. Terugzetten doe je door 
 Eenmalig:
 
 ```powershell
-git clone [url van de repo] t4
+git clone https://github.com/GITBuurtvader/t4.git
 cd t4
 node server.js
 ```
